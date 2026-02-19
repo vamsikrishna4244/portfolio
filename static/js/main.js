@@ -282,7 +282,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 .then(response => {
                     const msgDiv = document.getElementById('formMessage');
                     if (response.ok) {
-                        msgDiv.innerHTML = `<span style="color: var(--neon-green)">Message sent! Please check your email inbox to confirm activation (first time only).</span>`;
+                        msgDiv.innerHTML = `<span style="color: var(--neon-green)">Message sent successfully.</span>`;
                         contactForm.reset();
                     } else {
                         response.json().then(data => {
