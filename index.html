@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VAMSIKRISHNA KOPPARAJU - Portfolio</title>
+
+    <!-- Meta Tags for SEO -->
+    <meta name="description"
+        content="Dedicated and detail-driven engineering graduate with a solid understanding of data structures, Python, and SQL. Eager to start a career as a Data Engineer where I can help design solid data pipelines, streamline data workflows, and assist analytics teams with clean, well-organized data. Dedicated to ongoing learning in big data technologies, cloud platforms, and real-time data processing.">
+    <meta name="author" content="VAMSIKRISHNA KOPPARAJU">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Syncopate:wght@400;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body class="lenis-scroll">
+
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader-content">
+            <h1 class="loader-text">VK</h1>
+            <div class="loader-bar"></div>
+        </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-blur">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <span class="brand-text">VK</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item ms-lg-2"><a class="nav-link btn-nav-contact" href="#contact">Contact</a></li>
+                    <li class="nav-item ms-lg-3">
+                        <button id="theme-toggle" class="btn btn-sm btn-outline-light rounded-circle">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div id="particles-js"></div>
+            <div class="container hero-content">
+                <span class="hero-subtitle">Welcome to my universe</span>
+                <h1 class="hero-title">
+                    <span class="d-block">VAMSIKRISHNA</span>
+                    <span class="d-block">KOPPARAJU</span>
+                </h1>
+                <div class="hero-typing-wrapper">
+                    <span class="hero-typing-text">Python Developer | Data Engineer | ML Enthusiast</span>
+                </div>
+                <div class="hero-buttons mt-5">
+                    <a href="#projects" class="btn btn-custom me-3">View Work</a>
+                    <a href="#contact" class="btn btn-custom">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section-padding">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 mb-5 mb-lg-0">
+                        <div class="profile-img-wrapper tilt-card">
+                            <div class="profile-img-border"></div>
+                            <img src="static/img/profile.jpg" alt="VAMSIKRISHNA KOPPARAJU"
+                                class="img-fluid profile-img">
+                        </div>
+                    </div>
+                    <div class="col-lg-7 ps-lg-5">
+                        <h6 class="section-subtitle">Who I Am</h6>
+                        <h2 class="section-title mb-4">About <span class="text-primary">Me</span></h2>
+                        <p class="lead mb-4 text-muted">Dedicated and detail-driven engineering graduate with a solid
+                            understanding of data structures, Python, and SQL. Eager to start a career as a Data
+                            Engineer where I can help design solid data pipelines, streamline data workflows, and assist
+                            analytics teams with clean, well-organized data. Dedicated to ongoing learning in big data
+                            technologies, cloud platforms, and real-time data processing.</p>
+                        <div class="row mt-4">
+                            <div class="col-md-6 mb-3">
+                                <div class="info-item">
+                                    <i class="fas fa-envelope text-primary me-2"></i>
+                                    <span>vamsikrishna.kopparaju@gmail.com</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="info-item">
+                                    <i class="fas fa-map-marker-alt text-primary me-2"></i>
+                                    <span>Vijayawada, 520004</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="info-item">
+                                    <i class="fas fa-phone text-primary me-2"></i>
+                                    <span>+91 8247844907</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="info-item">
+                                    <i class="fas fa-user-graduate text-primary me-2"></i>
+                                    <span>M.Tech AI & ML</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section-padding">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h6 class="section-subtitle">My Arsenal</h6>
+                    <h2 class="section-title">Technical <span class="text-primary">Skills</span></h2>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="skill-card h-100 p-4">
+                            <div class="skill-icon mb-3">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h4 class="mb-3">Languages</h4>
+                            <div class="skill-tags">
+                                <span class="badge rounded-pill">Python</span>
+                                <span class="badge rounded-pill">SQL</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="skill-card h-100 p-4">
+                            <div class="skill-icon mb-3">
+                                <i class="fas fa-desktop"></i>
+                            </div>
+                            <h4 class="mb-3">Frontend</h4>
+                            <div class="skill-tags">
+                                <span class="badge rounded-pill">HTML</span>
+                                <span class="badge rounded-pill">CSS</span>
+                                <span class="badge rounded-pill">Bootstrap</span>
+                                <span class="badge rounded-pill">Javascript</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="skill-card h-100 p-4">
+                            <div class="skill-icon mb-3">
+                                <i class="fas fa-server"></i>
+                            </div>
+                            <h4 class="mb-3">Backend</h4>
+                            <div class="skill-tags">
+                                <span class="badge rounded-pill">Python</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="skill-card h-100 p-4">
+                            <div class="skill-icon mb-3">
+                                <i class="fas fa-tools"></i>
+                            </div>
+                            <h4 class="mb-3">Tools</h4>
+                            <div class="skill-tags">
+                                <span class="badge rounded-pill">Git</span>
+                                <span class="badge rounded-pill">GitHub</span>
+                                <span class="badge rounded-pill">Power BI</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="skill-card h-100 p-4">
+                            <div class="skill-icon mb-3">
+                                <i class="fas fa-layer-group"></i>
+                            </div>
+                            <h4 class="mb-3">Platforms</h4>
+                            <div class="skill-tags">
+                                <span class="badge rounded-pill">Pega</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section-padding">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h6 class="section-subtitle">Portfolio</h6>
+                    <h2 class="section-title">Featured <span class="text-primary">Projects</span></h2>
+                </div>
+
+                <div class="row g-4">
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="project-card">
+                            <div class="project-content p-4">
+                                <div class="project-category mb-2">AI/ML</div>
+                                <h3 class="project-title">A Conversational AI Model for College Enquiry System</h3>
+                                <p class="project-desc text-muted mb-4">Built a voice-enabled college inquiry chatbot
+                                    using Flask and Python. Used speech-to-text and text input for multilingual query
+                                    handling.</p>
+                                <a href="#" class="btn btn-sm btn-outline-primary stretched-link" data-bs-toggle="modal"
+                                    data-bs-target="#projectModal1">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="project-card">
+                            <div class="project-content p-4">
+                                <div class="project-category mb-2">Web Dev</div>
+                                <h3 class="project-title">E-Commerce Web Application</h3>
+                                <p class="project-desc text-muted mb-4">Designed and developed an e-commerce web
+                                    application using Flask framework. Implemented product management, user
+                                    authentication, and shopping cart features.</p>
+                                <a href="#" class="btn btn-sm btn-outline-primary stretched-link" data-bs-toggle="modal"
+                                    data-bs-target="#projectModal2">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="project-card">
+                            <div class="project-content p-4">
+                                <div class="project-category mb-2">Pega</div>
+                                <h3 class="project-title">Booking Movie Ticket using Pega</h3>
+                                <p class="project-desc text-muted mb-4">Implemented end-to-end movie booking workflows
+                                    in Pega. Developed user interface screens and interfaced with case management rules.
+                                </p>
+                                <a href="#" class="btn btn-sm btn-outline-primary stretched-link" data-bs-toggle="modal"
+                                    data-bs-target="#projectModal3">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="project-card">
+                            <div class="project-content p-4">
+                                <div class="project-category mb-2">Pega</div>
+                                <h3 class="project-title">Fraud Detection</h3>
+                                <p class="project-desc text-muted mb-4">Implemented fraud detection logic with
+                                    condition-based decision rules in Pega. Integrated real-time transaction information
+                                    from external systems.</p>
+                                <a href="#" class="btn btn-sm btn-outline-primary stretched-link" data-bs-toggle="modal"
+                                    data-bs-target="#projectModal4">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="project-card">
+                            <div class="project-content p-4">
+                                <div class="project-category mb-2">Pega</div>
+                                <h3 class="project-title">Locker Management Using Pega</h3>
+                                <p class="project-desc text-muted mb-4">Created a locker assignment and tracking
+                                    solution with Pega. Set up SLAs for the processing and resolution of locker
+                                    requests.</p>
+                                <a href="#" class="btn btn-sm btn-outline-primary stretched-link" data-bs-toggle="modal"
+                                    data-bs-target="#projectModal5">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="project-card">
+                            <div class="project-content p-4">
+                                <div class="project-category mb-2">Pega</div>
+                                <h3 class="project-title">Student Registration to UAP Using pega</h3>
+                                <p class="project-desc text-muted mb-4">Developed an automated registration process for
+                                    university admissions. merged data from external databases and verification
+                                    services.</p>
+                                <a href="#" class="btn btn-sm btn-outline-primary stretched-link" data-bs-toggle="modal"
+                                    data-bs-target="#projectModal6">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="project-card">
+                            <div class="project-content p-4">
+                                <div class="project-category mb-2">Pega</div>
+                                <h3 class="project-title">Expense Tracker Using Pega</h3>
+                                <p class="project-desc text-muted mb-4">Developed and designed a complete expense
+                                    management system with Pega. Provided users with the ability to enter, classify, and
+                                    control daily, weekly, and monthly expenses.</p>
+                                <a href="#" class="btn btn-sm btn-outline-primary stretched-link" data-bs-toggle="modal"
+                                    data-bs-target="#projectModal7">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="project-card">
+                            <div class="project-content p-4">
+                                <div class="project-category mb-2">Pega</div>
+                                <h3 class="project-title">Hospital General and Emergency Appointment</h3>
+                                <p class="project-desc text-muted mb-4">Installed a mechanism for general and emergency
+                                    appointment scheduling.</p>
+                                <a href="#" class="btn btn-sm btn-outline-primary stretched-link" data-bs-toggle="modal"
+                                    data-bs-target="#projectModal8">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Education Section -->
+        <section id="experience" class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 mb-5">
+                        <h3 class="mb-4 text-center text-lg-start"><i class="fas fa-briefcase text-primary me-2"></i>
+                            Experience</h3>
+                        <div class="timeline">
+
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <span class="timeline-date">03/2025 – 09/25</span>
+                                    <h4 class="timeline-title">Python Full Stack Trainee</h4>
+                                    <h5 class="timeline-subtitle">CODEGNAN IT SOLUTIONS PVT. LTD</h5>
+                                    <ul class="timeline-desc mt-2">
+                                        <li>Developed full-stack web applications using Python, Flask, HTML, CSS, and
+                                            JavaScript.</li>
+                                        <li>Built and integrated RESTful APIs for dynamic user experiences.</li>
+                                        <li>Managed version control and code collaboration using Git and GitHub.</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <h3 class="mb-4 text-center text-lg-start"><i
+                                class="fas fa-graduation-cap text-primary me-2"></i> Education</h3>
+                        <div class="timeline">
+
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <span class="timeline-date">2025-On Going</span>
+                                    <h4 class="timeline-title">Master of Technology | Artifical Intelligence & Machine
+                                        Learning</h4>
+                                    <h5 class="timeline-subtitle">Lovely Professional University</h5>
+                                    <p class="mb-0">CGPA: 8.38</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <span class="timeline-date">2021-2025</span>
+                                    <h4 class="timeline-title">Bachelor of Technology | Artificial Intelligence & Data
+                                        Science</h4>
+                                    <h5 class="timeline-subtitle">Lakireddy Balireddy College of Engineering</h5>
+                                    <p class="mb-0">CGPA: 7.22</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <h3 class="mb-4 mt-5 text-center text-lg-start"><i
+                                class="fas fa-certificate text-primary me-2"></i> Certificates</h3>
+
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="certificate-card d-flex align-items-center p-3">
+                                    <i class="fas fa-check-circle text-success me-3 fa-lg"></i>
+                                    <span class="cert-text">Certificate Pega Senior System Architect-Version Infinity
+                                        23</span>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="certificate-card d-flex align-items-center p-3">
+                                    <i class="fas fa-check-circle text-success me-3 fa-lg"></i>
+                                    <span class="cert-text">Infosys-Machine Learning Foundation Certification</span>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="certificate-card d-flex align-items-center p-3">
+                                    <i class="fas fa-check-circle text-success me-3 fa-lg"></i>
+                                    <span class="cert-text">Aws Introduction to Block Chain</span>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="certificate-card d-flex align-items-center p-3">
+                                    <i class="fas fa-check-circle text-success me-3 fa-lg"></i>
+                                    <span class="cert-text">Continuous Integration and Delivery(CI/CD)-EDX</span>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="certificate-card d-flex align-items-center p-3">
+                                    <i class="fas fa-check-circle text-success me-3 fa-lg"></i>
+                                    <span class="cert-text">Certified Pega System Architect- Version Infinity 23</span>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="certificate-card d-flex align-items-center p-3">
+                                    <i class="fas fa-check-circle text-success me-3 fa-lg"></i>
+                                    <span class="cert-text">Great Learning-Introduction To Artificial
+                                        Intelligence</span>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="certificate-card d-flex align-items-center p-3">
+                                    <i class="fas fa-check-circle text-success me-3 fa-lg"></i>
+                                    <span class="cert-text">Introduction to Cloud Computing- EDX</span>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="certificate-card d-flex align-items-center p-3">
+                                    <i class="fas fa-check-circle text-success me-3 fa-lg"></i>
+                                    <span class="cert-text">Salesforce-AI Associate</span>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="certificate-card d-flex align-items-center p-3">
+                                    <i class="fas fa-check-circle text-success me-3 fa-lg"></i>
+                                    <span class="cert-text">Guvi-Chatgpt for Everyone</span>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="certificate-card d-flex align-items-center p-3">
+                                    <i class="fas fa-check-circle text-success me-3 fa-lg"></i>
+                                    <span class="cert-text">Analyzing Data with Python-EDX</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section-padding">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h6 class="section-subtitle">Get in Touch</h6>
+                    <h2 class="section-title">Contact <span class="text-primary">Me</span></h2>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="contact-card p-5">
+                            <form id="contactForm" action="https://formspree.io/f/vamsikrishna.kopparaju@gmail.com"
+                                method="POST">
+                                <input type="hidden" name="_subject" value="New Contact from Portfolio">
+                                <div class="row g-4">
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="name" name="name"
+                                                placeholder="Your Name" required>
+                                            <label for="name">Your Name</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="email" class="form-control" id="email" name="email"
+                                                placeholder="Your Email" required>
+                                            <label for="email">Your Email</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <textarea class="form-control" placeholder="Leave a message here"
+                                                id="message" name="message" style="height: 150px" required></textarea>
+                                            <label for="message">Message</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 text-center">
+                                        <button type="submit" class="btn btn-primary btn-lg rounded-pill px-5">Send
+                                            Message <i class="fas fa-paper-plane ms-2"></i></button>
+                                    </div>
+                                </div>
+                                <div id="formMessage" class="mt-3 text-center"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer py-4 text-center">
+        <div class="container">
+            <div class="social-links mb-3">
+                <a href="https://linkedin.com/in/vamsikrishna-kopparaju" target="_blank" class="social-icon"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/vamsikrishna4244" target="_blank" class="social-icon"><i
+                        class="fab fa-github"></i></a>
+                <a href="https://www.hackerrank.com/profile/vamsikrishna_ko7" target="_blank" class="social-icon"><i
+                        class="fab fa-hackerrank"></i></a>
+                <a href="mailto:vamsikrishna.kopparaju@gmail.com" class="social-icon"><i
+                        class="fas fa-envelope"></i></a>
+            </div>
+            <p class="mb-0 text-muted small">&copy; 2026 VAMSIKRISHNA KOPPARAJU. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- GSAP for advanced animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/split-type"></script>
+
+    <!-- Particles.js -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="static/js/main.js"></script>
+</body>
+
+</html>
