@@ -48,6 +48,18 @@ To run this project locally:
 2.  **Open the project:**
     Navigate to the project directory and open `index.html` in your preferred browser.
 
+## 📧 Contact Form Configuration
+
+The contact form is powered by [Formspree](https://formspree.io/).
+
+1.  Sign up for a free account at Formspree.
+2.  Create a new form and copy the **Endpoint URL**.
+3.  Update the `action` attribute in the `form` tag within `index.html`:
+    ```html
+    <form id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+    ```
+4.  Current Endpoint: `https://formspree.io/f/mlgwlknq`
+
 ## 📫 Contact
 
 -   **Email:** [vamsikrishna.kopparaju@gmail.com](mailto:vamsikrishna.kopparaju@gmail.com)
